@@ -30,8 +30,9 @@ public class ThreadFa extends Thread{
         int f[] = new int[this.num];
         for(int j= 0;j<this.num;j++){
             System.out.println("Posição"+j);
+            System.out.println(" ");
             f[j] = Seed.nextInt(26);   
-            System.out.println(nome+" com fatorial de "+f[j]);
+            System.out.println(nome+" ----- com fatorial de "+f[j]);
             for(long i=1;i<=f[j];i++){
                 s=s*i;
             }
