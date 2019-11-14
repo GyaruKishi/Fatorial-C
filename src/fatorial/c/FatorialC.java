@@ -8,6 +8,7 @@ import java.util.Random;
 /**
  *
  * @author Luiz Arthur
+ * @author Vinícius José Do Valle Ferreira Santos
  */
 public class FatorialC {
 
@@ -22,6 +23,8 @@ public class FatorialC {
         ThreadFa tr3 = new ThreadFa("Thread #3", 250000);
         
         ThreadFa tr4 = new ThreadFa("Thread #4", 250000);
+        
+        // alterar a parte de threads para demais projetos com 2 e sequencial
         
     }
     
