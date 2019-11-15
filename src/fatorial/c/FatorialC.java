@@ -17,9 +17,8 @@ public class FatorialC {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        ThreadFa tr = new ThreadFa("Thread #1", 250000);
+        ThreadFa tr = new ThreadFa("Thread #1", 1000000);
         
-        ThreadFa tr2 = new ThreadFa("Thread #2", 250000);
 
     }
     
