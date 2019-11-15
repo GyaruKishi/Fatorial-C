@@ -22,8 +22,16 @@ public class FatorialCUsu {
         System.out.println("Digite o numero de fatoriais que deseja fazer");
         int n = ler.nextInt();
         
-        System.out.println("Digite o numero de Threads que realizaram o serviço");
-        int m = ler.nextInt();
+        int m=0;
+        int v=0;
+        
+        while(v==0){ 
+        System.out.println("Digite o numero de Threads (até 6, por favor) que realizaram o serviço");
+        m = ler.nextInt();
+        if(m>0 && m<7){
+            v=1;
+        }
+        }
         
         for(int i = 0;i<m;i++){
         ThreadFaUsu tr = new ThreadFaUsu("Thread #", n/m, i);
