@@ -24,10 +24,12 @@ public class ThreadFa extends Thread{
     
     @Override
     public void run() {
-        
+        //gera números aleatórios
         Random Seed = new Random();
         long s=1;
+        //cria um vetor com num posições
         int f[] = new int[this.num];
+        //calcula os fatoriais
         for(int j= 0;j<this.num;j++){
             System.out.println("Posição"+j);
             System.out.println(" ");
