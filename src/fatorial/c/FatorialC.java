@@ -18,7 +18,7 @@ public class FatorialC {
      */
     public static void main(String[] args) {
         ThreadFa tr = new ThreadFa("Thread #1", 1000000);
-        
+        // testar se fatorial está funcionando perfeitamente
 
     }
     
